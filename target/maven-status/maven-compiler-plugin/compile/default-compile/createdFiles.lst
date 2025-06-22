@@ -1,0 +1,14 @@
+com/simplewebapp/SimpleWebAppApplication.class
+com/simplewebapp/config/SecurityConfig$1.class
+com/simplewebapp/service/impl/UserServiceImpl.class
+com/simplewebapp/controller/AuthController.class
+com/simplewebapp/repository/UserRepository.class
+com/simplewebapp/aop/LogEntryExit.class
+com/simplewebapp/config/SecurityConfig.class
+com/simplewebapp/aop/LogEntryExitAspect.class
+com/simplewebapp/service/UserService.class
+com/simplewebapp/service/EMailSenderService.class
+com/simplewebapp/controller/HomeController.class
+com/simplewebapp/service/impl/JavaMailSenderService.class
+com/simplewebapp/service/CustomUserDetailsService.class
+com/simplewebapp/model/User.class

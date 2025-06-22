@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home - Simple Web App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="welcome">Welcome, <span th:text="${username}">User</span>!</div>
+            <form th:action="@{/logout}" method="post" style="display: inline;">
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+        </div>
+        
+        <div class="content">
+            <div class="success-message">
+                <h3>🎉 Authentication Successful!</h3>
+                <p>You have successfully logged into the Simple Web App.</p>
+            </div>
+            
+            <h2>What you can do:</h2>
+            <ul class="text-left max-width-400 margin-auto">
+                <li>✅ User registration and login</li>
+                <li>✅ Secure password storage with BCrypt</li>
+                <li>✅ Session management</li>
+                <li>✅ Protected routes</li>
+                <li>✅ Database persistence</li>
+            </ul>
+            
+            <p class="margin-top-30 color-gray">
+                This is a simple Java Spring Boot application with authentication.
+                You can extend it by adding more features like user profiles, 
+                role-based access control, or additional security measures.
+            </p>
+        </div>
+    </div>
+</body>
+</html> 
